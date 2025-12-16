@@ -8,7 +8,8 @@
     "payments": "Оплата",
     "analytics": "Аналитика",
     "reports": "Отчёты",
-    "settings": "Настройки"
+    "settings": "Настройки",
+    "logout": "Выход"
   },
   "dashboard": {
     "title": "Дашборд администратора",
