@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/i18n.ts","./src/main.tsx","./src/pages/analytics.tsx","./src/pages/bookings.tsx","./src/pages/dashboard.tsx","./src/pages/payments.tsx","./src/pages/residents.tsx","./src/services/mockdata.ts"],"errors":true,"version":"5.9.3"}
