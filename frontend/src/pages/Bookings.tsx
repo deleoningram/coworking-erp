@@ -29,11 +29,21 @@ import {
   FileDownload as ExportIcon
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
-import { mockBookings, Booking } from '../services/mockData';
+import { mockBookings } from '../services/mockData';
+
+// Define Booking type locally to avoid import issues
+type BookingType = {
+  id: string;
+  resource: string;
+  time: string;
+  status: 'active' | 'pending' | 'approved' | 'cancelled' | 'completed';
+  payment: 'paid' | 'unpaid';
+  client: string;
+};
 
 const Bookings: React.FC = () => {
   const { t } = useTranslation();
-  const [bookings, setBookings] = useState<Booking[]>(mockBookings);
+  const [bookings, setBookings] = useState<BookingType[]>(mockBookings);
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [paymentFilter, setPaymentFilter] = useState<string>('all');

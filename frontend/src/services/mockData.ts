@@ -1,3 +1,4 @@
+// Type definitions
 export interface Booking {
   id: string;
   resource: string;
@@ -19,6 +20,12 @@ export interface Resident {
   tariff: string;
 }
 
+export interface OccupancyData {
+  hour: string;
+  value: number;
+}
+
+// Mock data
 export const mockBookings: Booking[] = [
   {
     id: 'XJ-2501',
@@ -51,6 +58,14 @@ export const mockBookings: Booking[] = [
     status: 'completed',
     payment: 'paid',
     client: 'ООО "Технологии"'
+  },
+  {
+    id: 'XJ-2505',
+    resource: 'Место C-08',
+    time: '13:00-15:00',
+    status: 'cancelled',
+    payment: 'unpaid',
+    client: 'Петр Д.'
   }
 ];
 
@@ -62,10 +77,12 @@ export const mockStats: DashboardStats = {
 
 export const mockResidents: Resident[] = [
   { name: 'Иван П.', status: 'active', tariff: 'Hot desk' },
-  { name: 'Мария С.', status: 'active', tariff: 'Фикс место' }
+  { name: 'Мария С.', status: 'active', tariff: 'Фикс место' },
+  { name: 'Алексей К.', status: 'active', tariff: 'Переговорная' },
+  { name: 'Петр Д.', status: 'inactive', tariff: 'Hot desk' }
 ];
 
-export const mockOccupancyData = [
+export const mockOccupancyData: OccupancyData[] = [
   { hour: '08:00', value: 20 },
   { hour: '09:00', value: 45 },
   { hour: '10:00', value: 70 },
