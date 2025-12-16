@@ -1,0 +1,77 @@
+{
+  "app": {
+    "title": "ERP Коворкинга",
+    "subtitle": "WorkHub City Center",
+    "dashboard": "Дашборд",
+    "bookings": "Бронирования",
+    "residents": "Резиденты",
+    "payments": "Оплата",
+    "analytics": "Аналитика",
+    "reports": "Отчеты",
+    "settings": "Настройки"
+  },
+  "dashboard": {
+    "title": "Дашборд администратора",
+    "todayBookings": "Сегодня броней",
+    "occupancy": "Загрузка",
+    "revenue": "Выручка",
+    "recentActivity": "Последние действия",
+    "viewAll": "Показать все",
+    "occupancyByHour": "Загрузка по часам",
+    "bookingsList": "Список бронирований",
+    "residents": "Резиденты",
+    "tariffs": "Тарифы"
+  },
+  "bookings": {
+    "title": "Бронирования",
+    "bookingId": "№ Заявки",
+    "resource": "Объект",
+    "time": "Время",
+    "status": "Статус",
+    "payment": "Оплата",
+    "client": "Клиент",
+    "actions": "Действия",
+    "active": "Активно",
+    "pending": "Ожидание",
+    "approved": "Согласовано",
+    "cancelled": "Отменено",
+    "completed": "Завершено",
+    "paid": "Оплачено",
+    "unpaid": "Не оплачено",
+    "newBooking": "Новое бронирование"
+  },
+  "residents": {
+    "title": "Резиденты",
+    "name": "Имя",
+    "status": "Статус",
+    "tariff": "Тариф",
+    "since": "С",
+    "active": "Активен",
+    "inactive": "Неактивен"
+  },
+  "payments": {
+    "title": "Оплата",
+    "amount": "Сумма",
+    "date": "Дата",
+    "method": "Способ",
+    "status": "Статус"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "occupancyByZone": "Загрузка по зонам",
+    "revenue": "Выручка",
+    "clients": "Клиенты"
+  },
+  "common": {
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "export": "Экспорт",
+    "loading": "Загрузка...",
+    "noData": "Нет данных",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "view": "Просмотр"
+  }
+}
